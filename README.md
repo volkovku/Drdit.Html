@@ -1,6 +1,6 @@
 # Drdit.Html Project
 
-Drdit.Html is a simple and lightweight, DSL-based, HTML construction library for C#.
+Drdit.Html is a simple and lightweight, DSL-based, HTML construction [NuGet library](https://www.nuget.org/packages/Drdit.Html) for C#.
 
 
 # Example

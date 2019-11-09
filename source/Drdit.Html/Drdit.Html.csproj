@@ -1,9 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <PackageId>Drdit.Html</PackageId>
+        <Title>Drdit.Html</Title>
+        <Description>Drdit.Html is a simple and lightweight, DSL-based, HTML construction library for C#.</Description>
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>Drdit.Html</RootNamespace>
         <AssemblyName>Drdit.Html</AssemblyName>
+        <Version>0.1.0</Version>
+        <Authors>Kirill Volkov</Authors>
+        <PackageTags>html,dsl,lightweight,template</PackageTags>
+        <RepositoryUrl>https://github.com/volkovku/Drdit.Html</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/volkovku/Drdit.Html</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/volkovku/Drdit.Html/master/LICENSE</PackageLicenseUrl>
     </PropertyGroup>
 
 </Project>
