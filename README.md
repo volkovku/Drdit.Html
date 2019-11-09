@@ -10,14 +10,16 @@ This C# code:
 ```csharp
 // using static Drdit.Html.HtmlTags;
 // using a = Drdit.Html.HtmlAttributes;
+// var chars = new[] {"A", "B", "C", "D"};
+
 html[
     head[
         meta[a.charset > "utf-8"],
-        title[a.style > "font-weight: bold"]["Hello world"]
+        title["Hello world"]
     ],
     body[
         div[
-            p["List of chars:"],
+            p[a.style > "font-weight: bold"]["List of chars:"],
             ul[chars.Select(_ => li[_])],
             p["Some text ", b["and another text"], p]
         ]
@@ -31,11 +33,11 @@ turns into HTML like:
 <html>
     <head>
         <meta charset="utf-8" />
-        <title style="font-weight: bold">Hello world</title>
+        <title>Hello world</title>
     </head>
     <body>
         <div>
-            <p>List of chars:</p>
+            <p style="font-weight: bold">List of chars:</p>
             <ul>
                 <li>A</li>
                 <li>B</li>

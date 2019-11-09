@@ -14,11 +14,11 @@ namespace Drdit.Html.Example
                 html[
                     head[
                         meta[a.charset > "utf-8"],
-                        title[a.style > "font-weight: bold"]["Hello world"]
+                        title["Hello world"]
                     ],
                     body[
                         div[
-                            p["List of chars:"],
+                            p[a.style > "font-weight: bold"]["List of chars:"],
                             ul[chars.Select(_ => li[_])],
                             p["Some text ", b["and another text"], p]
                         ]
